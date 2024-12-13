@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="project%201.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+
+<header>
+      <span class="logo">
+        <a href="welkom.html">
+            <img src="photos/logo1.png" alt="Logo" class="logo-image" height="100" width="106">
+        </a>
+      </span>
+
+    <p class="countdown" id="demo"></p>
+
+    <nav id="links">
+        <div class="dropdown">
+            <button onclick="hopla()" class="dropbtn">menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="welkom.html">Home</a>
+                <a href="over%20mij.html">About</a>
+                <a href="projecten.html">Projecten</a>
+                <a href="amar.html">Interview</a>
+                <a href="contactus.html">Contact us</a>
+            </div>
+        </div>
+
+
+        <button class="darky" onclick="myFunction()">dark</button>
+
+        <script>
+            function myFunction() {
+                let element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </nav>
+</header>
+
+<main class="overme">
+<section class="tekstmij">
+   <h1> Mijn leven </h1>
+    <p>Ik woon thuis met mijn vader, moeder, vier zusjes en een kat. Het is altijd druk in huis, en er is weinig stilte. <br> Op een normale dag ga ik naar school, kom ik terug, doe huiswerk als dat er is, en dan sluit ik de dag vaak af met gamen om even aan alles te ontsnappen.</p>
+
+    <h1>Mijn hobby's</h1>
+    <p>Mijn grootste hobby’s zijn gamen, anime kijken en soms ook series. Gamen helpt me om te ontspannen en ergens anders in te duiken.<br> Anime en series geven me hetzelfde gevoel; het zijn gewoon goede manieren om even weg te zijn uit de dagelijkse dingen.</p>
+
+    <h1>Mijn ervaring</h1>
+    <p>Ik heb mijn MAVO afgerond en doe nu de opleiding tot software developer. In het begin snapte ik weinig van coderen, <br> maar na een paar maanden begon ik dingen door te krijgen. Nu begrijp ik hoe je met code websites en programma’s bouwt, en ik zie steeds beter hoe complex en interessant dat eigenlijk is.</p>
+</section>
+
+<table id="informatie">
+    <tr class="tabeltitel">
+        <th>Onderwerp</th>
+        <th>Inhoud</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Leven</td>
+        <td>Wonen</td>
+        <td>Thuis met ouders en vier zusjes, samen met een kat.</td>
+    </tr>
+    <tr>
+        <td>Hobby's</td>
+        <td>Ontspanning</td>
+        <td>Gamen, anime kijken en series.</td>
+    </tr>
+    <tr>
+        <td>Ervaring</td>
+        <td>Opleiding</td>
+        <td>MAVO afgerond, nu opleiding tot software developer.</td>
+    </tr>
+</table>
+</main>
+<img class="mijnfoto" src="photos/overmij photos.png" alt="mijn fotos" width="297" height="440">
+
+<footer class="footer">
+    <h4>Heb je nog vragen? neem contact met me op</h4>
+    <p>github:<a  href="https://github.com/Aayan-ops19" target="_blank">aayan-ops19.github.com</a> <br></p>
+    <p> e-mail :<a  href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRdqRSKxfSdXvWtHtPVRnpbMrcswSRTzDBgKXKknsFMXbclxLwrCShRpWTpXktJVhNdgCV" target="_blank">muhammed010aayan@Gmail.com</a></p>
+
+</footer>
+<script src="doc.js"></script>
+</body>
+</html>

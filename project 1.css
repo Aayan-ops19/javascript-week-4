@@ -1,0 +1,383 @@
+/* Algemene opmaak voor de hele pagina */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECF0F1; /* lichtgrijze achtergrond */
+    font-family: Arial, sans-serif;
+    color: #2C3E50; /* diepblauwe tekstkleur voor consistentie */
+}
+
+/* Header en navigatie */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2C3E50; /* diepblauwe header */
+    padding: 10px 20px;
+    height: 2.2cm;
+}
+
+.logo {
+    float: left;
+    margin-top: -15px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+header a {
+    color: #FFFFFF; /* witte tekstkleur in de navigatie */
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-left: 15px;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    color: #E67E22; /* zacht oranje hover-kleur */
+    border: 1px solid #E67E22;
+}
+
+/* Hoofdtekst en secties */
+.tekst {
+    color: #2C3E50; /* diepblauwe tekstkleur */
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    width: 50%;
+}
+
+.tekstmij {
+    color: #2C3E50; /* diepblauwe tekstkleur */
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.aa h1, .aa p {
+    color: #2C3E50;
+    padding-left: 120px;
+}
+
+/* Placeholder afbeeldingen */
+.placeholders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    margin:10px;
+}
+
+.placeholders > * {
+    flex-basis: 20%;
+}
+
+
+/* Contactformulier en tabel */
+.amain {
+    background-color: #FFFFFF; /* witte achtergrond voor formulier */
+    display: flex;
+    margin: 50px 80px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alinks {
+    flex-basis: 50%;
+    padding: 40px 60px;
+    margin-top: 10px;
+}
+
+.arecht {
+    flex-basis: 50%;
+    background-color: #2C3E50;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+}
+.arecht table{
+    color:white;
+}
+.input-grow {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    flex: 1;
+}
+
+.input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    outline: none;
+}
+
+textarea {
+    width: 95%;
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: #E67E22; /* zacht oranje knop */
+    color: #FFFFFF;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D35400; /* donkerder oranje op hover */
+}
+
+.alinks h3 {
+    color: #2C3E50;
+}
+
+/* Interview sectie */
+.allebij {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    min-height: 80vh;
+    align-items: flex-start;
+}
+
+.interviewvragen {
+    flex: 1;
+    margin-right: 20px;
+    padding-top:30px ;
+}
+
+.video {
+    flex: 0 0 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+}
+
+.interviewvragen h3, .interviewvragen h2 {
+    color: #2C3E50;
+}
+
+/* Tabel informatie */
+table {
+    display: flex;
+    color: #2C3E50;
+    justify-content: center;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+table#informatie tr {
+    height: 1cm;
+    padding: 10px;
+}
+
+table#informatie td {
+    background-color: #FFFFFF;
+    color: #888;
+    padding: 10px;
+}
+
+.tabeltitel {
+    background-color: #2C3E50; /* diepblauwe tabelkop */
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+table#informatie th {
+    padding: 0 10px;
+}
+
+/* Footer styling */
+footer {
+    color: #FFFFFF;
+    background-color: #2C3E50; /* diepblauwe achtergrond */
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.footer h4, .footer p {
+    margin: 10px;
+}
+
+.footer a{
+    color: orange
+}
+
+main img{
+    float: right;
+    margin-top: -400px;
+}
+
+.mijnfoto{
+    float: right;
+    margin-top:-625px;
+    margin-right: 50px;
+}
+.amar{
+    width: 114px;
+    height: 184px;
+    margin:20px 20px 0px 20px;
+}
+.aayam{
+    width: 114px;
+    height: 184px;
+    margin:20px 20px 0px 20px;
+}
+
+h5{
+    display: none;
+}
+
+#cookie-banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1000;
+    width: 90%; /* Optioneel: aangepast formaat */
+    max-width: 400px; /* Max breedte */
+    text-align: center;
+}
+
+#cookie-banner p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #333;
+}
+
+#cookie-banner button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#accept-cookies {
+    background-color: #ffa500;
+    color: #2c3e50;
+}
+
+#weigeren-cookies {
+    background-color: #ffa500;
+    color: #2c3e50;
+}
+
+
+body.dark-mode .countdown {
+    color: #00bcd4;
+}
+/* Dark mode stijl */
+body.dark-mode {
+    background-color: #000000;
+}
+body.dark-mode #greeting-container {
+    color: #00bcd4;
+}
+body.dark-mode header,
+body.dark-mode footer {
+    background-color: #333;
+    color: white;
+}
+body.dark-mode .tekst{
+    color: #00bcd4;
+}
+
+body.dark-mode a {
+    color: #00bcd4;
+}
+
+body.dark-mode button {
+    background-color: #555;
+    color: white;
+    border: 1px solid #777;
+}
+.dropbtn{
+    display:none;
+
+}
+
+@media screen and (max-width: 768px) {
+    #welkom {
+        height: 25%;
+    }
+    #welkompage {
+        width: 331px;
+        height: 125px;
+        margin-right: 20px;
+        margin-top: -220px;
+    }
+
+    .mijnfoto{
+        margin-right: 2px;
+        margin-top:-110px;
+        width: 75px;
+        height: 110px;
+    }
+    #informatie{
+        display:none;
+
+    }
+
+    .dropbtn {
+        display:block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+       display: none; /* Verberg standaard */
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+ .show{
+     display:block;
+ }
+}
+
+
+
+
+
+.countdown{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 9px;
+    color:white;
+}
